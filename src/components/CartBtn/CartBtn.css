@@ -1,0 +1,40 @@
+
+
+.cart-btn{
+    width: 14rem;
+    background-color: rgb(94, 8, 8);
+    border: none;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    font-size: larger;
+}
+
+.cart-btn:hover{
+    cursor: pointer;
+}
+
+.cart-btn:active{
+    transform: scale(1.2);
+}
+
+.cart-icon{
+    color: white
+}
+
+.cart-text{
+    color: white;
+}
+
+.cart-quantity{
+    background-color: rgb(239, 18, 33);
+    width: 2.5rem;
+    height: 1.5rem;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
