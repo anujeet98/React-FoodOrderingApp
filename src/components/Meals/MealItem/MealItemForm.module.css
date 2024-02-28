@@ -6,27 +6,6 @@
     justify-content: space-around;
 }
 
-.inputGroup{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-.inputGroup label{
-    font-size: large;
-    font-weight: bolder;
-}
-
-.inputGroup input{
-    border: 2px solid rgba(142, 135, 135, 0.405);
-    border-radius: 3px;
-    font-size: large;
-    padding: 0.3rem 0.4rem;
-    width: 3.5rem;
-    font-weight: 600;
-    -moz-appearance: textfield;
-}
 
 .addBtn{
     width: 7.5rem;
