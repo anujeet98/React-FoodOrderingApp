@@ -1,0 +1,47 @@
+
+
+.meals{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-bottom: 5rem;
+}
+
+.list{
+    width: 100%;
+}
+
+.list li{
+    list-style: none;
+    border-bottom: 2px solid rgba(85, 79, 79, 0.593);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.list li:last-child{
+    border: none;
+}
+
+
+.meal-name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.meal-description{
+    font-style: italic;
+    font-size: large;
+}
+
+.meal-price{
+    font-size: x-large;
+    color: rgb(148, 26, 26);
+    font-weight: bolder;
+}
