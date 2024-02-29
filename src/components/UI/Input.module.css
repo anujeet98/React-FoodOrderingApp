@@ -17,5 +17,33 @@
     padding: 0.3rem 0.4rem;
     width: 3.5rem;
     font-weight: 600;
-    -moz-appearance: textfield;
 }
+
+
+@media (max-width: 700px) {
+    .inputGroup {
+        gap: 0.8rem;
+    }
+    .inputGroup label{
+        font-size: medium;
+    }
+    .inputGroup input{input{
+        font-size: medium;
+        padding: 0rem 0.26rem;
+        width: 2.9rem;
+    }
+  }
+}
+  @media (max-width: 600px) {
+    .inputGroup {
+        gap: 0.6rem;
+    }
+    .inputGroup label{
+        font-size: small;
+    }
+    .inputGroup input{
+        font-size: small;
+        padding: 0.1rem 0.14rem;
+        width: 2.3rem;
+    }
+  }

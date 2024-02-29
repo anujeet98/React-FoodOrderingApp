@@ -30,13 +30,25 @@
 @media (max-width: 1000px) {
     .summary{
         width: 75%;
-
-    }
-
-    .summary-heading{
-        font-size: medium;
-    }
-    .summary p{
-        font-size: x-small;
     }
 }
+
+
+@media (max-width: 700px) {
+    .summary-heading{
+        font-size: x-large;
+    }
+    .summary p{
+        font-size: medium;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .summary-heading{
+        font-size: large;
+    }
+    .summary p{
+        font-size: small;
+    }
+  }
