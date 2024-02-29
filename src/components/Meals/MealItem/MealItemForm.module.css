@@ -1,0 +1,22 @@
+
+.itemForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.addBtn{
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(151, 38, 38);
+}
+
+.addBtn:hover{
+    cursor: pointer;
+}

@@ -1,10 +1,19 @@
 import React from "react";
-import Header from './components/Header/Header'
+import Header from './components/Layout/Header'
+import Meals from "./components/Meals/Meals";
+
+import './App.css'
+
+import Cart from "./components/Cart/Cart";
 
 function App() {
   return (
     <React.Fragment>
-      <Header></Header>
+      <Cart/>
+      <div className="App">
+        <Header></Header>
+        <Meals/>
+      </div>
     </React.Fragment>
   );
 }

@@ -1,0 +1,27 @@
+
+
+
+.summary{
+    width: 50%;
+    background-color: rgba(38, 36, 36, 0.871);
+    color: white;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+}
+
+.summary-heading{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.summary p{
+    font-size: large;
+    color: white;
+    text-align: center;
+}

@@ -5,7 +5,7 @@ const CartBtn = () => {
         <button className="cart-btn">    
             <i className="ri-shopping-cart-line cart-icon"></i>
             <div className='cart-text'> Your Cart </div>
-            <div className='cart-quantity'>2</div>
+            <div className='cart-quantity'>0</div>
         </button>
     )
 }

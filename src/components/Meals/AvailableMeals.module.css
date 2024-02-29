@@ -1,0 +1,23 @@
+
+
+.meals{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+}
+
+.list{
+    width: 100%;
+    padding: 0;
+}
+
+.list li:last-child{
+    border: none;
+}
