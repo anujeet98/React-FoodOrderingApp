@@ -25,3 +25,18 @@
     color: white;
     text-align: center;
 }
+
+
+@media (max-width: 1000px) {
+    .summary{
+        width: 75%;
+
+    }
+
+    .summary-heading{
+        font-size: medium;
+    }
+    .summary p{
+        font-size: x-small;
+    }
+}

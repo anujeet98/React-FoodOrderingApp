@@ -3,12 +3,12 @@ import CartBtn from "./CartBtn";
 import "./Header.css";
 import mealsImage from '../../assets/meals.png'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <React.Fragment>
       <header className="header">
         <div className="title">ReactMeals</div>
-        <CartBtn></CartBtn>
+        <CartBtn onClick={props.onShowCart}/>
       </header>
       <div className="backdrop-image">
         <img src={mealsImage} alt="backdrop image"/>

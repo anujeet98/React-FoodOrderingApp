@@ -11,6 +11,8 @@
     justify-content: space-between;
     padding: 0 3rem;
     margin-bottom: 5rem;
+
+    animation: slide-up 300ms ease-in forwards;
 }
 
 .list{
@@ -20,4 +22,15 @@
 
 .list li:last-child{
     border: none;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
