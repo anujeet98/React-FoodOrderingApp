@@ -26,3 +26,29 @@
     color: rgb(148, 26, 26);
     font-weight: bolder;
 }
+
+
+@media (max-width: 700px) {
+    .meal-name{
+        font-size: large;
+    }
+    .meal-description{
+        font-size: medium;
+    }
+    .meal-price{
+        font-size: large;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .meal-name{
+        font-size: small;
+    }
+    .meal-description{
+        font-size: x-small;
+    }
+    .meal-price{
+        font-size: small;
+    }
+  }

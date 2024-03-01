@@ -1,3 +1,4 @@
+
 import { useContext } from 'react';
 import classes from './CartItem.module.css';
 import CartContext from '../../contexts/store/cart-context';
@@ -5,6 +6,7 @@ import CartContext from '../../contexts/store/cart-context';
 
 const CartItem = (props) => {
     const cartCtx = useContext(CartContext);
+
     return (
         <li className={classes["cartItem-li"]}>
             <div>
