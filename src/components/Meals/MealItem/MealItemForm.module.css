@@ -20,3 +20,24 @@
 .addBtn:hover{
     cursor: pointer;
 }
+
+.addBtn:active{
+    transform: scale(0.95);
+}
+
+
+
+@media (max-width: 700px) {
+    .addBtn{
+        font-size: medium;
+        width: 6rem;
+        height: 2rem;
+    }
+  }
+  @media (max-width: 600px) {
+    .addBtn{
+        font-size: small;
+        width: 4.8rem;
+        height: 1.6rem;
+    }
+  }

@@ -11,7 +11,7 @@ const Header = (props) => {
         <CartBtn onClick={props.onShowCart}/>
       </header>
       <div className="backdrop-image">
-        <img src={mealsImage} alt="backdrop image"/>
+        <img src={mealsImage} alt="backdrop"/>
       </div>
     </React.Fragment>
   );
