@@ -4,7 +4,7 @@ import CartContext from "./cart-context";
 const addToCartLogic = (prevCart, item) => {
     const updatedCart = new Map(prevCart);
 
-    const prevQty = prevCart.get(item.id) ? Number(prevCart.get(item.id).quantity) : 0;
+    const prevQty = prevCart.has(item.id) ? Number(prevCart.get(item.id).quantity) : 0;
     updatedCart.set(item.id, {...item, quantity:(Number(item.quantity) + prevQty)});
     return updatedCart;
 }
@@ -25,7 +25,14 @@ const CartProvider = (props) => {
 
   const deleteItemFromCartHandler = (id) => {
     setCartItems((prevCart) => {
-      return prevCart.filter((item) => item.id !== id);
+      if(!prevCart.has(id))
+      {
+        alert("Item with id: " + id + " does not exist in the cart");
+        return prevCart;
+      }
+      const updatedCart = new Map(prevCart);
+      updatedCart.get(id).quantity > 1 ? updatedCart.get(id).quantity-- : updatedCart.delete(id);
+      return updatedCart; 
     });
   };
 

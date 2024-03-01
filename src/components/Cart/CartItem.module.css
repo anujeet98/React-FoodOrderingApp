@@ -61,6 +61,8 @@
 
 .item-btn-action-grp button:hover{
     cursor: pointer;
+    background-color: rgb(134, 15, 15);
+    color: white;
 }
 
 .item-btn-action-grp button:active{
