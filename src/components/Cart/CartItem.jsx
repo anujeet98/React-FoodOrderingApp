@@ -23,7 +23,7 @@ const CartItem = (props) => {
             </div>
             <div className={classes["item-btn-action-grp"]}>
                 <button onClick={()=>cartCtx.removeItem(props.data.id)}>-</button>
-                <button>+</button>
+                <button onClick={addItemHandler}>+</button>
             </div>
         </li>
     )
