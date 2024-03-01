@@ -7,6 +7,11 @@ import CartContext from '../../contexts/store/cart-context';
 const CartItem = (props) => {
     const cartCtx = useContext(CartContext);
 
+    const addItemHandler = () => {
+        const item = {...props.data, quantity: 1};
+        delete item.description;
+        cartCtx.addItem(item);
+    }
     return (
         <li className={classes["cartItem-li"]}>
             <div>
